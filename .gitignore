@@ -1,0 +1,37 @@
+# Environment & Secrets
+.env
+.env.local
+*.env
+
+# Raw Datasets & Large Archives (Preserves Git repo lightness < 50MB)
+data/raw/
+data/archive/
+*.csv.zip
+*.tar.gz
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor Temporary Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Runtime Logs & Scratch Outputs
+*.log
+scratch/
